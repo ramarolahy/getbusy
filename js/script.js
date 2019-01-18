@@ -1,4 +1,5 @@
 /**
+ * Intro to Javascript
  * CSCI E3 Final Project
  * App name: My To Do List
  * Author: Mbinintsoa Ramarolahy
