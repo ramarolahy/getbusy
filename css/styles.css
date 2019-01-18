@@ -1,0 +1,103 @@
+/**
+ * CSCI E3 Final Project
+ * App name: My To Do List
+ * Author: Mbinintsoa Ramarolahy
+ * Features: - Add To Do item list
+ *           - Delete To Do item List
+ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(74, 86, 94);
+}
+
+.main_container {
+    background-image: linear-gradient(rgb(17, 27, 32), rgb(28, 45, 54)) ;
+    box-shadow: 3px 5px 100px 10px rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    min-height: 600px;
+    margin: auto;
+}
+
+.title {
+    color: rgb(104, 71, 110);
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    margin-block-start: 25px;
+    margin-block-end: 25px
+}
+
+.input_wrap {
+    height: 70px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.new_entry_input {
+    border: 0.5px solid rgb(104, 71, 110);
+    background-color:  rgb(16, 20, 22);
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgb(9, 15, 19);
+    padding-left: 20px;
+    color: rgb(187, 202, 212);
+    font-size: 1.5em;
+    height: 60px;
+    width: 580px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);;
+}
+
+.empty {
+    border: 3px solid red;
+}
+.entry_item_wrap {
+    border: 0.5px solid rgb(52, 72, 92);
+    border-radius: 5px;
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.entry_item_wrap:hover {
+    border: none;
+    background-color: rgb(70, 93, 114);
+    box-shadow: 0px 3px 15px rgb(0, 0, 0);
+    bottom: 2px;
+    right: 1px;
+}
+
+.entry_label {
+    color: rgb(193, 211, 216);
+    font-size: 1.2em;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.all_btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.fa-plus {
+    font-size: 1.3em;
+    color: white;
+}
+
+.fa-times-circle {
+    font-size: 1.3em;
+    color: rgb(170, 86, 86);
+}

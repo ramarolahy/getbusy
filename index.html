@@ -1,0 +1,61 @@
+<!-- 
+ * CSCI E3 Final Project
+ * App name: My To Do List
+ * Author: Mbinintsoa Ramarolahy
+ * Features: - Add To Do item list
+ *           - Delete To Do item List
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <title>GET BUSY!</title>
+</head>
+
+<body>
+
+    <!-- Add main container for To Do List -->
+    <div class="main_container">
+        <h1 class="title">GET BUSY!</h1>
+        <!-- Add wrapper for input section -->
+        <div class="input_wrap">
+            <input class="new_entry_input" type="text" name="ToDoItem">
+            <button class="all_btn new_entry_btn ">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+        <!-- Insert new entry items here -->
+        <div class="list_wrap">
+
+            <!-- TEMPLATES FOR TODO ITEM ENTRIES
+            ENTRY 0
+            <div id="entry_0" class="entry_item_wrap" display=none>
+                <label class="entry_label">List Item Label</label>
+                <button class="all_btn">
+                    <i class="del_entry_btn far fa-times-circle"></i>
+                </button>
+            </div>
+            
+            ENTRY 1
+            <div id="entry_1" class="entry_item_wrap" display=none>
+                <label class="entry_label">List Item Label</label>
+                <button class="all_btn">
+                    <i class="del_entry_btn far fa-times-circle"></i>
+                </button>
+            </div> -->
+
+        </div>
+    </div>
+    <!-- Makes sure DOM loads before manipulating them!! -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
